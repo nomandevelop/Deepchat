@@ -10,7 +10,7 @@ API_URL = "https://openrouter.ai/api/v1/chat/completions"
 
 headers = {
     "Authorization": f"Bearer {API_KEY}",
-    "HTTP-Referer": "http://localhost:8501",  
+    "HTTP-Referer": "https://noman-dc.streamlit.app",  
     "X-Title": "DeepSeek Test",
     "Content-Type": "application/json",
     "X-Allow-Logging": "false"
