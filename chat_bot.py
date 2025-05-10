@@ -3,7 +3,7 @@ import requests
 from dotenv import load_dotenv
 
 load_dotenv("fun_load.env") 
-API_KEY = ("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")
+API_KEY = ("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")
 
 
 API_URL = "https://openrouter.ai/api/v1/chat/completions"
