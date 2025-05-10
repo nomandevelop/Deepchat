@@ -67,7 +67,7 @@ import os
 load_dotenv("fun_load.env")
 
 # Fetch the API key from the environment
-API_KEY = os.getenv("OPENROUTER_API_KEY")
+API_KEY = os.getenv("f225d7f93d22b2231aa89aa426566be503268f2798aaa05b7709c22f0a8a596b")
 
 # Ensure the API key is loaded
 if not API_KEY:
