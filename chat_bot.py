@@ -1,9 +1,13 @@
 import streamlit as st
 import requests
 from dotenv import load_dotenv
+import os
 
 load_dotenv("fun_load.env") 
-API_KEY = ("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")
+# API_KEY = ("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")
+
+# API_KEY = os.getenv("API_KEY")
+API_KEY = os.getenv("OPENROUTER_API_KEY")
 
 
 API_URL = "https://openrouter.ai/api/v1/chat/completions"
