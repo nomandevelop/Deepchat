@@ -17,7 +17,8 @@ headers = {
 }
 
 
-st.title("DeepSeek R1 Chat via OpenRouter")
+st.title("Made By Noman")
+st.title("DeepSeek R1")
 
 if "messages" not in st.session_state:
     st.session_state.messages = []
