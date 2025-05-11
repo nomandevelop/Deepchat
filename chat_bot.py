@@ -33,7 +33,7 @@ if prompt := st.chat_input("Message DeepSeek R1..."):
 
   
     data = {
-        "model": "deepseek-ai/deepseek-r1",  
+        "model": "deepseek/deepseek-r1",  
         "messages": st.session_state.messages,
     }
 
